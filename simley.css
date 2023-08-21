@@ -1,0 +1,44 @@
+.contain{
+    width: 30vw;
+    height: 50vh;
+    background-color: yellow;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: 3s;
+}
+.eye{
+    position: relative;
+    left: 118px;
+    top: 100px;
+    display: flex;
+    width: 17vw;
+    height: 10vh;
+justify-content: space-between;
+   
+
+}
+.e1{
+    margin: 5px;
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    border-radius: 50%
+}
+.face{
+    width: 18vw;
+    height: 5vh;
+    background-color: black;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    border-end-end-radius:50% ;
+    border-end-start-radius: 50%;
+    transition: 2s;
+}
+.contain:hover{
+
+    background-color: rgb(219, 39, 7);
+}
+.face:hover{
+    border-radius: 50% 50% 0 0;
+}
